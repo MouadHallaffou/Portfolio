@@ -157,8 +157,8 @@ nav ul li a:hover {
 }
 
 .home .container_images img {
-  max-width: 100%; 
-  height: auto; 
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
@@ -430,18 +430,28 @@ footer .social_media img:hover {
     max-width: 100%;
   }
 
-  .home .container_images img {
-    width: 60%;
+  .home .container_images {
+    max-width: 70%; /* Ajustement pour les petits écrans */
     margin-top: 2rem;
   }
 
+  .home .container_images img {
+    max-width: 90%; /* L'image prend 100% de son conteneur sur mobile */
+  }
+
   /* Sections */
-  .about, .services, .projects, .skills, .contact {
+  .about,
+  .services,
+  .projects,
+  .skills,
+  .contact {
     flex-direction: column;
     text-align: center;
   }
 
-  .about .container_texts, .services .card, .projects .card {
+  .about .container_texts,
+  .services .card,
+  .projects .card {
     max-width: 100%;
   }
 
