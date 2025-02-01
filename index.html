@@ -7,7 +7,7 @@
     <link rel="icon" href="icons/icon_headr.ico" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
@@ -41,7 +41,7 @@
       <div class="container_texts">
         <h4>Bonjour, je m'appelle</h4>
         <h1>Mouad <span>Hallaffou</span></h1>
-        <h3>Je suis un Développeur Full Stack passionné.</h3>
+        <h3>Je suis un Développeur Web Full Stack .</h3>
         <a
           href="https://mouadhallaffou.github.io/my_rsume/"
           target="_blank"
@@ -55,7 +55,7 @@
             ><img src="icons/linkedin.png" alt="LinkedIn"
           /></a>
           <a href="https://github.com/MouadHallaffou" target="_blank"
-            ><img src="icons/github.png" alt="GitHub"
+            ><img src="icons/github.ico" alt="GitHub"
           /></a>
           <a href="https://www.facebook.com" target="_blank"
             ><img src="icons/facebook.png" alt="Facebook"
@@ -120,63 +120,179 @@
       </div>
     </section>
 
-<!-- Section Projets -->
-<section class="projects fade-in" id="projects">
-  <h2>Mes <span>Projets</span></h2>
-  <div class="box">
-    <!-- Projet 1 -->
-    <div class="card">
-      <img src="imgs/javascript.png" alt="Youdemy Platform" />
-      <h5>Youdemy Platform</h5>
-      <p>
-        Plateforme d’apprentissage en ligne interactive, offrant une
-        expérience utilisateur intuitive pour étudiants et enseignants.
-      </p>
-      <a href="https://github.com/MouadHallaffou/Youdemy" target="_blank" class="btn-github">
-        <i class="fab fa-github"></i> Voir sur GitHub
-      </a>
-    </div>
+    <!-- Section Projets -->
+    <section class="projects fade-in" id="projects">
+      <h2>Mes <span>Projets</span></h2>
 
-    <!-- Projet 2 -->
-    <div class="card">
-      <img src="imgs/javascript.png" alt="Dev.to Blogging Platform" />
-      <h5>Dev.to Blogging Platform</h5>
-      <p>
-        Système de gestion de contenu et interface utilisateur pour la
-        création et découverte d’articles techniques.
-      </p>
-      <a href="https://github.com/MouadHallaffou/Dev.to" target="_blank" class="btn-github">
-        <i class="fab fa-github"></i> Voir sur GitHub
-      </a>
-    </div>
+      <!-- Conteneur principal avec boutons de pagination -->
+      <div class="projects-wrapper">
+        <!-- Bouton de pagination précédent -->
+        <button class="pagination-btn prev-btn" onclick="changePage(-1)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
 
-    <!-- Projet 3 -->
-    <div class="card">
-      <img src="imgs/javascript.png" alt="Resume Builder - StruoCV" />
-      <h5>Resume Builder - StruoCV</h5>
-      <p>
-        Générateur de CV interactif permettant la personnalisation et le
-        téléchargement via une interface utilisateur intuitive.
-      </p>
-      <a href="https://github.com/MouadHallaffou/StruoCV" target="_blank" class="btn-github">
-        <i class="fab fa-github"></i> Voir sur GitHub
-      </a>
-    </div>
-  </div>
-</section>
+        <!-- Conteneur des pages de projets -->
+        <div class="projects-container">
+          <!-- Page 1 -->
+          <div class="project-page active">
+            <div class="box">
+              <!-- Projet 1 -->
+              <div class="card">
+                <img src="imgs/Course.svg" alt="Youdemy Platform" />
+                <h5>Youdemy Platform</h5>
+                <p>
+                  Plateforme d'apprentissage en ligne offrant des cours
+                  interactifs dans divers domaines. Conçue pour une expérience
+                  utilisateur fluide, elle permet aux étudiants et aux
+                  enseignants de se connecter et de collaborer efficacement.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/Youdemy"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+
+              <!-- Projet 2 -->
+              <div class="card">
+                <img src="imgs/Blog.svg" alt="Dev.to Blogging Platform" />
+                <h5>Dev.to Blogging Platform</h5>
+                <p>
+                  Plateforme de blogging technique permettant aux développeurs
+                  de partager des articles, des tutoriels et des astuces. Elle
+                  inclut des fonctionnalités de commentaires, de likes et de
+                  partage pour favoriser l'engagement communautaire.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/Dev.to"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+
+              <!-- Projet 3 -->
+              <div class="card">
+                <img src="imgs/cv.svg" alt="Resume Builder - StruoCV" />
+                <h5>Resume Builder - StruoCV</h5>
+                <p>
+                  Outil de création de CV en ligne permettant aux utilisateurs
+                  de personnaliser et de télécharger leur CV en quelques clics.
+                  Une interface intuitive guide l'utilisateur à travers chaque
+                  étape de la création.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/Resume_Builder_StruoCV"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 2 -->
+          <div class="project-page">
+            <div class="box">
+              <!-- Projet 4 -->
+              <div class="card">
+                <img src="imgs/Scrum.svg" alt="ScrumBoard" />
+                <h5>ScrumBoard</h5>
+                <p>
+                  Application de gestion de projet basée sur la méthodologie
+                  Scrum. Elle permet aux équipes de suivre les tâches, les
+                  sprints et les deadlines, favorisant une collaboration
+                  efficace et une productivité accrue.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/YoucodeScrum-Board"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+
+              <!-- Projet 5 -->
+              <div class="card">
+                <img src="imgs/Team.svg" alt="FUT Champions" />
+                <h5>FUT Champions</h5>
+                <p>
+                  Application web de gestion d'équipe Ultimate Team pour EA FC
+                  25. Les utilisateurs peuvent créer, personnaliser et gérer
+                  leurs formations tactiques et équipes de joueurs via une
+                  interface interactive et intuitive.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/FUT-Champions-Web-App-Ultimate-Team"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+
+              <!-- Projet 6 -->
+              <div class="card">
+                <img src="imgs/Weather.svg" alt="Weather_App" />
+                <h5>Weather_App</h5>
+                <p>
+                  Application météo en temps réel offrant des prévisions
+                  précises et des informations détaillées sur les conditions
+                  climatiques. Une interface simple et moderne facilite l'accès
+                  aux données météorologiques.
+                </p>
+                <a
+                  href="https://github.com/MouadHallaffou/Weather_App"
+                  target="_blank"
+                  class="btn-github"
+                >
+                  <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bouton de pagination suivant -->
+        <button class="pagination-btn next-btn" onclick="changePage(1)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
 
     <!-- Section Compétences -->
     <section class="skills fade-in" id="skills">
       <h2>Mes <span>Compétences</span></h2>
       <div class="content_skills">
+        <div class="skill"><img src="imgs/git.png" alt="Git" /></div>
+        <div class="skill"><img src="imgs/c.png" alt="C" /></div>
+        <div class="skill"><img src="imgs/github.png" alt="GitHub" /></div>
+        <div class="skill"><img src="imgs/figma.png" alt="Figma" /></div>
+        <div class="skill"><img src="imgs/adobe.png" alt="Adobe" /></div>
+        <div class="skill"><img src="imgs/trello.png" alt="Trello" /></div>
         <div class="skill"><img src="imgs/html.png" alt="HTML" /></div>
         <div class="skill"><img src="imgs/css.png" alt="CSS" /></div>
-        <div class="skill"><img src="imgs/javascript.png" alt="js"/></div>
-        <div class="skill"><img src="imgs/react.png" alt="React" /></div>
+        <div class="skill"><img src="imgs/bootstrap.png" alt="Bootstrap" /></div>
+        <div class="skill"><img src="imgs/tailwind.png" alt="Tailwind CSS" /></div>
+        <div class="skill"><img src="imgs/javascript.png" alt="JavaScript" /></div>
+        <div class="skill"><img src="imgs/jira.png" alt="Jira" /></div>
+        <div class="skill"><img src="imgs/sass.png" alt="SASS" /></div>
+        <div class="skill"><img src="imgs/mysql.png" alt="MySQL" /></div>
+        <div class="skill"><img src="imgs/postgresql.png" alt="PostgreSQL" /></div>
+        <div class="skill"><img src="imgs/php.png" alt="PHP" /></div>
         <div class="skill"><img src="imgs/laravel.png" alt="Laravel" /></div>
-        <div class="skill"><img src="imgs/git.png" alt="MySQL" /></div>
-        <div class="skill"><img src="imgs/bootstrap.png" alt="MySQL" /></div>
-        <div class="skill"><img src="imgs/docker.png" alt="MySQL" /></div>
+        <div class="skill"><img src="imgs/react.png" alt="React" /></div>
+        <div class="skill"><img src="imgs/vuejs.png" alt="Vue.js" /></div>
+        <div class="skill"><img src="imgs/nodejs.png" alt="Node.js" /></div>
+        <div class="skill"><img src="imgs/mongodb.png" alt="MongoDB" /></div>
+        <div class="skill"><img src="imgs/npm.png" alt="NPM" /></div>
+        <div class="skill"><img src="imgs/powershell.png" alt="PowerShell" /></div>
+        <div class="skill"><img src="imgs/docker.png" alt="Docker" /></div>
       </div>
     </section>
 
@@ -193,7 +309,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2025 Mouad Hallaffou. Tous droits réservés.</p>
+      <p>&copy; 2025 Mouad Hallaffou.</p>
       <div class="social_media">
         <a
           href="https://www.linkedin.com/in/hallaffou-mouad-763409200/"
@@ -201,7 +317,7 @@
           ><img src="icons/linkedin.png" alt="LinkedIn"
         /></a>
         <a href="https://github.com/MouadHallaffou" target="_blank"
-          ><img src="icons/github.png" alt="GitHub"
+          ><img src="icons/github.ico" alt="GitHub"
         /></a>
         <a href="https://www.facebook.com" target="_blank"
           ><img src="icons/facebook.png" alt="Facebook"
@@ -212,16 +328,6 @@
       </div>
     </footer>
 
-    <script>
-      // Script pour le menu hamburger
-      const mobileMenu = document.getElementById("mobile-menu");
-      const navLinks = document.querySelector(".nav-links");
-
-      mobileMenu.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
-
-
