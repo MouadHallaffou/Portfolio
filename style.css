@@ -273,6 +273,12 @@ nav ul li a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.projects .card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
 .projects .card h5 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -281,6 +287,34 @@ nav ul li a:hover {
 .projects .card p {
   font-size: 1rem;
   color: var(--secondaryColor);
+  margin-bottom: 1.5rem;
+}
+
+.projects .card .btn-github {
+  background-color: var(--primaryColor);
+  color: var(--lightColor);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.projects .card .btn-github:hover {
+  background-color: #2a27a8;
+}
+
+.projects .card .btn-github i {
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects .card {
+    flex: 1 1 100%;
+  }
 }
 
 /* Section Compétences */
