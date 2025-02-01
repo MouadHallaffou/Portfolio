@@ -68,9 +68,7 @@ Je suis un développeur Full Stack basé au Maroc, spécialisé dans la concepti
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MouadHallaffou&show_icons=true&theme=radical" alt="Statistiques GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MouadHallaffou&layout=compact&theme=radical" alt="Langages les plus utilisés" />
-  <img src="https://streak-stats.demolab.com?user=MouadHallaffou&theme=radical" alt="Streak Stats" />
 </p>
 
 ---
@@ -94,11 +92,6 @@ Je suis un développeur Full Stack basé au Maroc, spécialisé dans la concepti
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
 </p>
-
----
-
-### 📜 Citation Inspirante
-> "Le code est comme la poésie ; il allie logique et créativité pour créer quelque chose de beau et de fonctionnel."
 
 ---
 
