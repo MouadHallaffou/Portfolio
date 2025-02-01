@@ -9,7 +9,7 @@ Je suis un développeur Full Stack basé au Maroc, spécialisé dans la concepti
 - 🌱 J'apprends actuellement : **Node.js** et **Vue.js**
 - 💬 Posez-moi des questions sur : **Développement web**, **Gestion de projets Agile**, ou **Conception UI/UX**
 - 📫 Comment me contacter : **mouadhallaffou@gmail.com**
-- 🔗 Mon portfolio : [https://mouadhallaffou.github.io](https://mouadhallaffou.github.io)
+- 🔗 Mon portfolio : **https://mouadhallaffou.github.io/Portfolio/**
 
 ---
 
